@@ -1,0 +1,344 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 2
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L mybays_modules:ZS3L U1
+U 1 1 5FB5F5DE
+P 4000 2700
+F 0 "U1" H 4000 3667 50  0000 C CNN
+F 1 "ZS3L" H 4000 3576 50  0000 C CNN
+F 2 "mybays_modules:ZS3L" H 4000 2700 50  0001 C CNN
+F 3 "" H 4000 2700 50  0001 C CNN
+	1    4000 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x10 J5
+U 1 1 5FB63C8C
+P 5150 2800
+F 0 "J5" H 5068 2075 50  0000 C CNN
+F 1 "Conn_01x10" H 5068 2166 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical" H 5150 2800 50  0001 C CNN
+F 3 "~" H 5150 2800 50  0001 C CNN
+	1    5150 2800
+	1    0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x10 J4
+U 1 1 5FB62C17
+P 2750 2700
+F 0 "J4" H 2668 3317 50  0000 C CNN
+F 1 "Conn_01x10" H 2668 3226 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical" H 2750 2700 50  0001 C CNN
+F 3 "~" H 2750 2700 50  0001 C CNN
+	1    2750 2700
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2950 2300 3400 2300
+Wire Wire Line
+	3400 2400 2950 2400
+Wire Wire Line
+	2950 2500 3400 2500
+Wire Wire Line
+	3400 2600 2950 2600
+Wire Wire Line
+	2950 2700 3400 2700
+Wire Wire Line
+	3400 2800 2950 2800
+Wire Wire Line
+	2950 2900 3400 2900
+Wire Wire Line
+	2950 3000 3400 3000
+Wire Wire Line
+	3850 3500 3850 3650
+Wire Wire Line
+	3850 3650 3300 3650
+Wire Wire Line
+	3300 3650 3300 3100
+Wire Wire Line
+	3300 3100 2950 3100
+Wire Wire Line
+	3950 3500 3950 3750
+Wire Wire Line
+	3950 3750 3200 3750
+Wire Wire Line
+	3200 3750 3200 3200
+Wire Wire Line
+	3200 3200 2950 3200
+Wire Wire Line
+	4600 2300 4950 2300
+Wire Wire Line
+	4600 2400 4950 2400
+Wire Wire Line
+	4600 2500 4950 2500
+Wire Wire Line
+	4600 2600 4950 2600
+Wire Wire Line
+	4600 2700 4950 2700
+Wire Wire Line
+	4600 2800 4950 2800
+Wire Wire Line
+	4600 2900 4950 2900
+Wire Wire Line
+	4600 3000 4950 3000
+Wire Wire Line
+	3750 3500 3750 3550
+Wire Wire Line
+	3750 3550 3500 3550
+Wire Wire Line
+	3400 3550 3400 3000
+Connection ~ 3400 3000
+Wire Wire Line
+	4250 3500 4250 3550
+Wire Wire Line
+	4250 3550 4500 3550
+Wire Wire Line
+	4600 3550 4600 3000
+Connection ~ 4600 3000
+Wire Wire Line
+	4150 3500 4150 3650
+Wire Wire Line
+	4150 3650 4700 3650
+Wire Wire Line
+	4700 3650 4700 3100
+Wire Wire Line
+	4700 3100 4950 3100
+Wire Wire Line
+	4950 3200 4800 3200
+Wire Wire Line
+	4800 3200 4800 3750
+Wire Wire Line
+	4800 3750 4500 3750
+Wire Wire Line
+	4050 3750 4050 3500
+$Comp
+L power:+3V3 #PWR0106
+U 1 1 5FB72AAC
+P 3500 3450
+F 0 "#PWR0106" H 3500 3300 50  0001 C CNN
+F 1 "+3V3" H 3515 3623 50  0000 C CNN
+F 2 "" H 3500 3450 50  0001 C CNN
+F 3 "" H 3500 3450 50  0001 C CNN
+	1    3500 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3500 3450 3500 3550
+Connection ~ 3500 3550
+Wire Wire Line
+	3500 3550 3400 3550
+$Comp
+L power:GND #PWR0107
+U 1 1 5FB739B4
+P 4500 3450
+F 0 "#PWR0107" H 4500 3200 50  0001 C CNN
+F 1 "GND" H 4505 3277 50  0000 C CNN
+F 2 "" H 4500 3450 50  0001 C CNN
+F 3 "" H 4500 3450 50  0001 C CNN
+	1    4500 3450
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4500 3450 4500 3550
+Connection ~ 4500 3550
+Wire Wire Line
+	4500 3550 4600 3550
+Text Label 3000 2300 0    50   ~ 0
+RESETn
+Text Label 3000 2400 0    50   ~ 0
+ADC_PC01
+Text Label 3000 2600 0    50   ~ 0
+PC00
+Text Label 3000 2700 0    50   ~ 0
+PA00
+Text Label 3000 2800 0    50   ~ 0
+PA03
+Text Label 3000 2900 0    50   ~ 0
+PA04
+Text Label 3400 3650 0    50   ~ 0
+DBG_SWDIO
+Text Label 3400 3750 0    50   ~ 0
+DBG_SWCLK
+$Comp
+L power:GND #PWR0108
+U 1 1 5FB74F04
+P 4500 3850
+F 0 "#PWR0108" H 4500 3600 50  0001 C CNN
+F 1 "GND" H 4505 3677 50  0000 C CNN
+F 2 "" H 4500 3850 50  0001 C CNN
+F 3 "" H 4500 3850 50  0001 C CNN
+	1    4500 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 3850 4500 3750
+Connection ~ 4500 3750
+Wire Wire Line
+	4500 3750 4050 3750
+Text Label 4350 3650 0    50   ~ 0
+RESETn
+Text Label 4700 2900 0    50   ~ 0
+PD01
+Text Label 4700 2800 0    50   ~ 0
+PD00
+Text Label 4700 2700 0    50   ~ 0
+PC02
+Text Label 4700 2600 0    50   ~ 0
+PB00
+Text Label 4700 2500 0    50   ~ 0
+PB01
+Text Label 4700 2400 0    50   ~ 0
+RXD
+Text Label 4700 2300 0    50   ~ 0
+TXD
+$Comp
+L mybays_connector:CORTEX-DEBUGGER CON?
+U 1 1 5FB80CC0
+P 8000 2350
+AR Path="/5FB19A09/5FB80CC0" Ref="CON?"  Part="1" 
+AR Path="/5FB5E9C4/5FB80CC0" Ref="CON1"  Part="1" 
+F 0 "CON1" H 8000 2817 50  0000 C CNN
+F 1 "CORTEX-DEBUGGER" H 8000 2726 50  0000 C CNN
+F 2 "mybays_connector:debugger_2x05_P1.27mm_Vertical" H 8000 2350 50  0001 C CNN
+F 3 "" H 8000 2350 50  0001 C CNN
+	1    8000 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FB80CC6
+P 7350 2600
+AR Path="/5FB19A09/5FB80CC6" Ref="#PWR?"  Part="1" 
+AR Path="/5FB5E9C4/5FB80CC6" Ref="#PWR0109"  Part="1" 
+F 0 "#PWR0109" H 7350 2350 50  0001 C CNN
+F 1 "GND" H 7355 2427 50  0000 C CNN
+F 2 "" H 7350 2600 50  0001 C CNN
+F 3 "" H 7350 2600 50  0001 C CNN
+	1    7350 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7350 2600 7350 2550
+Wire Wire Line
+	7350 2550 7400 2550
+$Comp
+L power:GND #PWR?
+U 1 1 5FB80CCE
+P 9000 2350
+AR Path="/5FB19A09/5FB80CCE" Ref="#PWR?"  Part="1" 
+AR Path="/5FB5E9C4/5FB80CCE" Ref="#PWR0113"  Part="1" 
+F 0 "#PWR0113" H 9000 2100 50  0001 C CNN
+F 1 "GND" V 9005 2222 50  0000 R CNN
+F 2 "" H 9000 2350 50  0001 C CNN
+F 3 "" H 9000 2350 50  0001 C CNN
+	1    9000 2350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8600 2350 9000 2350
+Wire Wire Line
+	8750 2450 8600 2450
+Wire Wire Line
+	8750 2550 8600 2550
+Wire Wire Line
+	8750 2250 8600 2250
+Wire Wire Line
+	8750 2150 8600 2150
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5FB80CD9
+P 6950 2250
+AR Path="/5FB19A09/5FB80CD9" Ref="#PWR?"  Part="1" 
+AR Path="/5FB5E9C4/5FB80CD9" Ref="#PWR0114"  Part="1" 
+F 0 "#PWR0114" H 6950 2100 50  0001 C CNN
+F 1 "+3V3" V 6965 2378 50  0000 L CNN
+F 2 "" H 6950 2250 50  0001 C CNN
+F 3 "" H 6950 2250 50  0001 C CNN
+	1    6950 2250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6950 2250 7400 2250
+Wire Wire Line
+	7200 2350 7400 2350
+Wire Wire Line
+	7200 2450 7400 2450
+Text GLabel 7200 2350 0    50   Input ~ 0
+DBG_SWDIO
+Text GLabel 7200 2450 0    50   Input ~ 0
+DBG_SWCLK
+Text GLabel 8750 2450 2    50   Input ~ 0
+UART0_RX
+Text GLabel 8750 2550 2    50   Input ~ 0
+UART0_TX
+Text GLabel 8750 2250 2    50   Input ~ 0
+DBG_SWO
+Text GLabel 8750 2150 2    50   Input ~ 0
+RESETn
+NoConn ~ 7400 2150
+Text GLabel 7700 4450 0    50   Input ~ 0
+DBG_SWDIO
+Text GLabel 7700 4650 0    50   Input ~ 0
+DBG_SWCLK
+Text GLabel 8100 4450 2    50   Input ~ 0
+LCD_DATA0
+Text GLabel 8100 4650 2    50   Input ~ 0
+LCD_DATA1
+$Comp
+L Jumper:SolderJumper_2_Bridged JP?
+U 1 1 5FB84EBC
+P 7900 4450
+AR Path="/5FB19A09/5FB84EBC" Ref="JP?"  Part="1" 
+AR Path="/5FB5E9C4/5FB84EBC" Ref="JP1"  Part="1" 
+F 0 "JP1" H 7900 4655 50  0000 C CNN
+F 1 "SolderJumper_2_Bridged" H 7900 4564 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" H 7900 4450 50  0001 C CNN
+F 3 "~" H 7900 4450 50  0001 C CNN
+	1    7900 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper:SolderJumper_2_Bridged JP?
+U 1 1 5FB84EC2
+P 7900 4650
+AR Path="/5FB19A09/5FB84EC2" Ref="JP?"  Part="1" 
+AR Path="/5FB5E9C4/5FB84EC2" Ref="JP2"  Part="1" 
+F 0 "JP2" H 8000 4700 50  0000 C CNN
+F 1 "SolderJumper_2_Bridged" H 7950 4500 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" H 7900 4650 50  0001 C CNN
+F 3 "~" H 7900 4650 50  0001 C CNN
+	1    7900 4650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7700 4450 7750 4450
+Wire Wire Line
+	7700 4650 7750 4650
+Wire Wire Line
+	8100 4450 8050 4450
+Wire Wire Line
+	8100 4650 8050 4650
+Wire Wire Line
+	5500 2300 4950 2300
+Connection ~ 4950 2300
+Wire Wire Line
+	5500 2400 4950 2400
+Connection ~ 4950 2400
+Text GLabel 5500 2300 2    50   Input ~ 0
+UART1_RXD
+Text GLabel 5500 2400 2    50   Input ~ 0
+UART1_TXD
+$EndSCHEMATC
